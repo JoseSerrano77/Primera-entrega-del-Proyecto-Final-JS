@@ -1,0 +1,55 @@
+.contenedor{
+    background-color: coral;
+    width: 100%;
+    height: auto;
+    max-width: 1880px;
+
+    margin: 0 auto;
+    min-width: 800px;
+     
+}
+textarea{
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.contenedor2{
+   
+    background-image: url(../img/helados.jpg);
+    height: 100vh; /* para que se ajuste al tamaño de mi ventana (vh viewport-height = altura de la ventana grafica)
+    el contenido se va adaptar al 100% de la altura de la ventana . puedo poner 50% y solo va ocupar el 50% de la ventana */
+    width: 100vw; /* aplkica lo mismo pero en este caso es para el ancho de pantalla*/
+     background-size:cover;
+    
+}
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0ad825;
+    height: 10vh;
+    width: 100vw;
+    color: rgb(43, 25, 41);
+    font-family: fantasy;
+    font-size: 4rem;
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height: 50px;
+    background-color:rgb(243, 55, 8);
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 1rem;
+    margin:auto ;
+    margin-top: 300px;
+}
+p{
+    font-size: 50px;
+    color: black;
+  }
