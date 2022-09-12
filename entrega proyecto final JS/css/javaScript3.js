@@ -1,3 +1,6 @@
+/////// Para mi proyecto final quiero realizar un e-comerce de venta de cerveza, por ello comence a trabajar con un desarrollo diferente
+////// al que habia presentado en la entrega de Simulador interactivo.///////////////////////////////
+
 //////// CLASE CONSTRUCTORA/////////////////////////////
 class Cerveza {
   constructor(id, marca, tipo, formato, volumen, precio) {
